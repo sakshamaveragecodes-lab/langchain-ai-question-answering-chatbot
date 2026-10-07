@@ -1,0 +1,21 @@
+PASS - app.py parses as valid Python
+PASS - required file exists: app.py
+PASS - required file exists: .env
+PASS - required file exists: requirements.txt
+PASS - required file exists: README.md
+PASS - LangChain dependency declared
+PASS - Gemini LangChain integration declared
+PASS - python-dotenv dependency declared
+PASS - prompt template contains question variable
+PASS - .env contains API key variable
+PASS - test question 1 returns an output
+PASS - test question 2 returns an output
+PASS - test question 3 returns an output
+PASS - test question 4 returns an output
+PASS - test question 5 returns an output
+PASS - five questions passed through application flow
+PASS - empty input is rejected
+PASS - overlong input is rejected
+
+ALL OFFLINE TESTS PASSED
+Live Gemini connectivity is intentionally not tested without a private API key.
